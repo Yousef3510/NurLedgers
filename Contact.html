@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nurledgers | Contact</title>
+    <link rel="stylesheet" href="contact.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="../assets/icon.png" alt="Nurledgers icon" />
+            <h1 class="brand">Nurledgers</h1>
+        </div>
+
+        <div class="menu-toggle">
+            ☰
+            <ul class="nav-links-toggle">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- Main -->
+<main>
+    <div class="contact-container">
+        <div class="contact-info">
+            <h2>Contact info</h2>
+            <ul>
+                <li></li>
+                <li>Benjamin Aabbou –<br>Oprichter & Vertrouwenspersoon</li>
+                <li></li>
+                <li><a href="mailto:info@nurledgers.com?subject=AlgemeneVraag">info@nurledgers.com</a></li>
+            </ul>
+        </div>
+
+        <div class="contact-form-container">
+            <form action="mailto:info@nurledgers.com" method="POST" enctype="text/plain">
+                <fieldset>
+                    <legend>Contactformulier</legend>
+                    <label for="naam">Bedrijfsnaam / naam:</label>
+                    <input type="text" id="naam" name="naam" required />
+
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required />
+
+                    <label for="Vragen">Vragen of opmerkingen:</label>
+                    <textarea id="Vragen" name="Vragen" required></textarea>
+
+                    <button type="submit">Verstuur</button>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-container">
+        <hr />
+        Copyright &copy; Nurledgers, LLC
+    </div>
+</footer>
+
+</body>
+</html>
