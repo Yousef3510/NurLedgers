@@ -111,6 +111,10 @@
 <script>
     const toggle = document.getElementById('menu-toggle');
     const navLinks = document.getElementById('nav-links');
+    const logo = document.querySelector('.logo');
+    logo.addEventListener('click', () => {
+        window.location.href = 'index.html';
+    });
 
     toggle.addEventListener('click', () => {
         navLinks.classList.toggle('active');
