@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nurledgers</title>
+    <link rel="stylesheet" href="StartPage.css" />
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="/assets/icon.png" alt="Logo" />
+            NurLedgers
+        </div>
+
+        <!-- Hamburger alleen voor mobiel -->
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+
+        <!-- Desktop navigatie -->
+        <ul class="nav-links desktop">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">Over</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Mobiele navigatie -->
+        <ul class="nav-links mobile" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">Over</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-content">
+
+        <div class="hero-quote">
+            <p>Welkom bij <span>NurLedgers</span>, <br>
+                waar licht en structuur elkaar ontmoeten</p>
+        </div>
+
+        <div class="hero-buttons">
+        <button>
+            <a href="About.html">Leer ons kennen</a>
+        </button>
+        <button>
+            <a href="Contact.html">Boek nu uw gratis
+                consultatie</a>
+        </button>
+        </div>
+    </div>
+    <div class="hero-img"></div>
+</section>
+<script>
+    const toggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+</body>
+</html>

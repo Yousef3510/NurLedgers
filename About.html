@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="About.css">
+    <title>About</title>
+</head>
+<body>
+<!--Header-->
+<header>
+    <div class="nav-container">
+        <div class="logo">
+            <img src="/assets/icon.png" alt="Logo" />
+            NurLedgers
+        </div>
+
+        <!-- Hamburger alleen voor mobiel -->
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+
+        <!-- Desktop navigatie -->
+        <ul class="nav-links desktop">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">Over</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+
+        <!-- Mobiele navigatie -->
+        <ul class="nav-links mobile" id="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">Over</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </div>
+</header>
+
+<main>
+    <div class="about-container">
+        <div class="Mission">
+            <h2>Helderheid brengen in uw administratie en
+                boekhouding – met integriteit, zorg, en het licht
+                van oprechtheid
+            </h2>
+        </div>
+
+
+        <div class="offers">
+            <h2>Our Offer</h2>
+            <ul>
+                <li>Administratieve ondersteuning</li>
+                <li>Boekhouding & facturatie</li>
+                <li>Financiële rapportering</li>
+                <li>Backoffice en opvolging van dossiers</li>
+            </ul>
+        </div>
+
+
+        <div class="doelgroep">
+            <h2>Who We’re Built For</h2>
+            <ul>
+                <li>✓ &emsp;Startende ondernemers</li>
+                <li>✓ &emsp;KMO’s</li>
+                <li>✓ &emsp;Vrije beroepen</li>
+                <li>✓ &emsp;Projectleiders en consultants</li>
+                <li>✓ &emsp;Iedereen die nood heeft aan
+                    structuur en discretie in zijn of haar
+                    administratie</li>
+            </ul>
+        </div>
+
+        <div class="Approach">
+            <h2>Our Approach</h2>
+            <ul>
+                <li></li>
+                <li>Kennismakingsgesprek</li>
+
+                <li></li>
+                <li>Analyse van uw nood
+                    en opmaak voorstel</li>
+
+                <li></li>
+                <li>Vast contactpersoon en
+                    duidelijke afspraken
+                    (KPI’s)</li>
+
+                <li></li>
+                <li>Discrete en veilige
+                    communicatie (e-mail,
+                    cloud, tools)</li>
+
+                <li></li>
+                <li>Periodieke evaluatie
+                    en optimalisatie
+                </li>
+            </ul>
+
+        </div>
+
+
+    </div>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <hr>
+        Copyright &copy; Nurledgers, LLC
+    </div>
+</footer>
+
+<script src="About.js"></script>
+<script>
+    const toggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    toggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+</body>
+</html>
