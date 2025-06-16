@@ -9,7 +9,6 @@ body {
     opacity: 0;
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
-    height: 100vh;
     animation: fadein 1s ease forwards;
 }
 
@@ -24,7 +23,7 @@ header {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 100vw;
     height: 10vh;
     background-color: #fff;
     color: #35573e;
@@ -169,7 +168,8 @@ main {
 
 /* Contact Layout */
 .contact-container {
-    height: 90vh;
+    padding-top: 15vh;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
@@ -301,7 +301,6 @@ button:hover {
 
     .contact-container {
         grid-template-columns: 1fr;
-        gap: 2rem;
     }
 
     .contact-info h2 {

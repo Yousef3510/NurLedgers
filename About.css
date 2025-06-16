@@ -213,8 +213,6 @@ main {
     grid-column: 1/2;
     color: white;
     background-color: #35573e;
-    border-top-right-radius: 5rem;
-    border-bottom-right-radius: 5rem;
     box-shadow: 15px 8px 5px rgba(53,87,62,0.2);
     padding: 1rem;
     font-size: 1.4rem;

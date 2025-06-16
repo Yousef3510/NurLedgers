@@ -9,7 +9,6 @@ body {
     opacity: 0;
     font-family: Arial, Helvetica, sans-serif;
     width: 100vw;
-    height: 100vh;
     animation: fadein 1s ease forwards;
 }
 
@@ -238,11 +237,12 @@ header {
 
     .hero-img {
         width: 100%;
-        height: 45vh;
+        height: 50vh;
         border-top-left-radius: 0;
     }
 
     .hero-content {
+        height: 100%;
         gap: 1rem;
     }
 
